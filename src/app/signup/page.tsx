@@ -1,0 +1,275 @@
+
+import Image from "next/image";
+
+export default function SignUp() {
+  return (
+    <body>
+      <nav className="justify-between p-5 items-center flex">
+        <div className="flex items-center gap-x-3">
+          <i className="fa-solid fa-bars text-[#066B87] text-3xl"></i>
+          <p className="bg-[#565555] rounded-full p-[7px] hidden lg:block px-[16px] text-[20px] font-bold text-white">
+            ع
+          </p>
+          <button className="bg-[#D7B13A] px-[20px] py-[10px] hidden lg:block w-[171px] rounded-[20px] text-white font-bold">
+            <a href="#">تسجيل الدخول</a>
+          </button>
+          <button className="bg-[#066B87] px-[20px] py-[10px] hidden lg:block w-[171px] rounded-[20px] text-white font-bold">
+            <a href="#">أشترك الأن</a>
+          </button>
+        </div>
+        <div className="flex gap-x-3">
+          <div className="bg-[#2A99B8FC] hidden lg:flex rounded-[15px] py-[10px] px-[15px] justify-between text-white font-bold items-center w-[230px]">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <p className="">ابحث ماذا تتعلم؟</p>
+          </div>
+          <img
+            src="/images/HDTCon.png"
+            alt=""
+            className="w-[200px] h-[40px]"
+          />
+        </div>
+      </nav>
+      <div className="section-1 w-[90%] mx-auto lg:h-screen relative ">
+        <div className="flex justify-between p-10  items-center mx-auto">
+          <div className="w-[60%] lg:block hidden">
+            <img
+              src="/images/login.png"
+              className="w-[500px]  relative top-[75px]"
+              alt=""
+            />
+          </div>
+          <div className="lg:w-[40%] md:w-[60%] w-[90%] mx-auto p-10 ">
+            <div className="border-[6px] border-[#066B87] relative rounded-full  p-5 py-10">
+              <div className="absolute size-full left-0 block -bottom-5 ">
+                <p className="text-[#066B87] font-bold text-[28px] xl:text-[40px] absolute w-full top-0 left-0  py-5   bg-[#D7B13A] rounded-full text-center">
+                  تسجيل الدخول
+                </p>
+                <p
+                  className="text-[#066B87] font-bold lg:-bottom-28 xl:text-[30px] lg:text-[23px] text-[18px] absolute md:-bottom-16  left-1/2 -translate-x-1/2 w-full text-center"
+                  dir="rtl"
+                >
+                  اختار طريقة تسجيل الدخول الافضل لك{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="md:grid hidden  grid-cols-4 grid-rows-3 gap-3.5 absolute lg:top-96 top-20 right-3 w-[80px] h-[56px]  ">
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+        </div>
+        <div className="lg:grid hidden grid-cols-4 grid-rows-3 gap-3.5 absolute top-1/2 left-10 w-[80px] h-[56px]  ">
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+          <div className="w-[10px] h-[10px] bg-[#FA851F] rounded-full place-self-center"></div>
+        </div>
+        <img
+          src="/images/shape.png"
+          className="absolute lg:top-12 -top-10 right-60 w-[150px] h-[97px] hidden md:block"
+          alt=""
+        />
+        <img
+          src="/images/shape.png"
+          className="absolute top-20 left-20 size-[55px] hidden lg:block"
+          alt=""
+        />
+        <img
+          src="/images/shape blue.png"
+          className="absolute bottom-10  bg-blend-color hidden md:block  left-10"
+          alt=""
+        />
+        <img
+          src="/images/shape blue.png"
+          className="absolute bottom-10  bg-blend-color hidden lg:block  right-44 "
+          alt=""
+        />
+      </div>
+
+      <div className="section-1 my-5 py-5">
+        <div className="lg:w-[60%] w-[90%] mx-auto">
+          <h2
+            className="text-[#066B87] font-bold text-[30px] my-3 text-center"
+            dir="rtl"
+          >
+            اشترك فى HDTCON
+          </h2>
+          <div className="cards space-y-4 border-b border-black/30 pb-5 w-[60%] mx-auto text-center">
+            <button className="border border-[#066B87] p-1 px-20 rounded-lg w-full mx-auto flex justify-center">
+              <a href="#" className="flex items-center gap-x-5">
+                <span className="text-[#066B87]">المتابعة بواسطة جوجل</span>
+                <img
+                  src="/images/google-icon.png"
+                  alt=""
+                  className="w-[40px]"
+                />
+              </a>
+            </button>
+            <button className="border border-[#066B87] p-1 px-20 rounded-lg w-full mx-auto flex justify-center">
+              <a href="#" className="flex items-center gap-x-5">
+                <span className="text-[#066B87]">المتابعة بواسطة فيسبوك</span>
+                <i className="fa-brands fa-facebook text-[#1877F2] text-3xl"></i>
+              </a>
+            </button>
+            <button className="border border-[#066B87] p-1 px-20 rounded-lg w-full mx-auto flex justify-center">
+              <a href="#" className="flex items-center gap-x-5">
+                <span className="text-[#066B87]">المتابعة برقم الهاتف</span>
+                <i className="fa-solid fa-mobile-screen-button text-3xl text-[#066B87]"></i>
+              </a>
+            </button>
+          </div>
+          <div
+            className="flex justify-center flex-col w-[60%] mx-auto my-3"
+            dir="rtl"
+          >
+            <label htmlFor="email" className="text-[#066B87]">
+              البريد الإلكتروني / اسم المستخدم
+            </label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="اكتب بريدك الالكترونى"
+              className="placeholder:text-[#066B87] border border-[#066B87] px-5 py-2 rounded-lg my-3 outline-none"
+            />
+            <button className="bg-[#066B87] p-3 rounded-lg w-full mx-auto flex justify-center my-3">
+              <a href="#" className="flex items-center gap-x-5">
+                <span className="text-white">المتابعة بالبريد الالكترونى</span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div className="w-[90%] mx-auto">
+          <div className="flex justify-between items-center my-3">
+            <p className="w-[60%] text-[#6F6C90]">
+              منصة HDTC-ON هي أول منصة تدريب واستشارات احترافية في الوطن
+              العربي، تضم فريق عمل من المحترفين المعتمدين في مركز HDTC في
+              العديد من مجالات التدريب والتعليم والحياة
+            </p>
+            <img src="/images/HDTCon.png" alt="" />
+          </div>
+          <div className="w-[110%] bg-[#6F6C90]/30 h-[2px] my-5 -translate-x-[5%]"></div>
+          <div className="flex  flex-wrap justify-between text-end my-5 gap-y-7">
+            <div className=" w-[45%] md:w-[22%] flex flex-col gap-y-3">
+              <h2 className="text-[20px] font-bold text-[#170F49]">تحميل</h2>
+              <img
+                src="/images/app-2.png"
+                alt=""
+                className="w-[150px] ms-auto"
+              />
+              <img
+                src="/images/app-1.png"
+                alt=""
+                className="w-[150px] ms-auto"
+              />
+            </div>
+            <div className=" w-[45%] md:w-[22%]  flex flex-col gap-y-3">
+              <h2 className="text-[20px] font-bold text-[#170F49]">
+                روابط إضافية
+              </h2>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                معلومات عنا
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                تواصل معنا
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                التحقق من الشهادة
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                الأسئلة الشائعة
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                كن مدرساً
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                المقالات
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                سياسة الشروط والأحكام
+              </a>
+              <a href="#" className="text-[#6F6C90] text-[18px] font-semibold">
+                سياسة الخصوصية
+              </a>
+            </div>
+            <div className=" w-[45%] md:w-[22%]  flex flex-col gap-y-3">
+              <h2 className="text-[20px] font-bold text-[#170F49]">
+                تواصل معنا
+              </h2>
+              <a href="#" className="text-[#6F6C90]">
+                info@hdtc-on.com <i className="fa-solid fa-envelope"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                +971 52 937 6837 <i className="fa-solid fa-phone"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                إنستجرام <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                فيسبوك <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                إكس <i className="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                سناب <i className="fa-brands fa-snapchat"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                تك توك <i className="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="#" className="text-[#6F6C90]">
+                لينكدان <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div className=" w-[45%] md:w-[22%]  flex flex-col gap-y-3">
+              <h2 className="text-[20px] font-bold text-[#170F49]">
+                انضم الينا
+              </h2>
+              <p className="text-[#6F6C90]">ابقى على الاطلاع بكل جديد</p>
+              <input
+                type="text"
+                placeholder="ادخل البريد الالكترونى"
+                className="bg-white p-2  rounded-full outline-none border border-[#D9DBE9] text-end  placeholder:text-[#6F6C90] w-fit ms-auto"
+              />
+              <button className="bg-[#D7B13A] w-fit font-bold text-white rounded-full p-2 px-3 ms-auto">
+                انضم
+              </button>
+            </div>
+          </div>
+          <div className="w-[110%] bg-[#6F6C90]/30 h-[2px] my-5 -translate-x-[5%]"></div>
+          <div className="flex justify-between items-center text-[#6F6C90] py-5">
+            <p>Copyright © 2022 BRIX Templates | All Rights Reserved </p>
+            <div className="flex gap-x-3">
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  );
+}

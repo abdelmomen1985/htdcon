@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-outline {
+    -webkit-text-stroke: 1px rgba(128, 128, 128, 0.2);
+    color: transparent;
+}
+}
+
+@layer utilities {
+  .hover\:rotate-x-90:hover {
+    transform: rotateX(90deg);
+  }
+}
